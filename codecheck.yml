@@ -1,0 +1,26 @@
+---
+version: https://codecheck.org.uk/spec/config/1.0
+
+manifest:
+  - file: ministudy1_analyses_final.R
+    comment: Analysis script for pilot study.
+  - file: ministudy2_analyses_final.R
+    comment: Analysis script for main study.
+  - file: study1_data_processed.csv
+    comment: Dataset for pilot study.
+  - file: study2_data_processed.csv
+    comment: Dataset for main study.
+  - file: pilot.pdf
+    comment: Figure 2 in the manuscript.
+  - file: colors_scatterplot.jpg
+    comment: Figure 3 in the manuscript.
+  - file: colors_violinplot.jpg
+    comment: Figure 5 in the manuscript.
+  - file: colors_means.jpg
+    comment: Figure 4 in the manuscript.
+    
+paper:
+  title: "Exploring Categorical Colors"
+  authors:
+    - name: Lukas Röseler
+      ORCID: 0000-0002-6446-1901
